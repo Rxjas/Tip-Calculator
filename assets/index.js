@@ -1,4 +1,4 @@
-var bill = 80.71;
+var bill = 77.71;
 var percent = 15;
 var people = 2;
 var tip = undefined;
