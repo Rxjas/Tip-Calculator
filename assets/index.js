@@ -1,8 +1,16 @@
-var bill = 77.71;
-var percent = 15;
-var people = 2;
-var tip = undefined;
-var answer = undefined;
+//Getting all the IDs we want to work with
+console.log($('#bill'))
+var bill = document.getElementById('bill');
+var percent = document.getElementById('percent');
+var people = document.getElementById('people');
+var tipText = document.getElementById('tip');
+var totalText = document.getElementById('total');
+
+var bill2 = 77.71;
+var percent2 = 15;
+var people2 = 2;
+var tip2 = undefined;
+var answer2 = undefined;
 
 function calc(amount){
      tip = amount * (percent / 100)
