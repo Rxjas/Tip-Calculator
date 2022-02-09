@@ -9,18 +9,20 @@
 </head>
 <body>
     <!-- <h1>Calculate your tip!</h1> -->
-    <label for="amount">Total bill amount:</label>
-    <input type="text" id="amount" placeholder="0.00" value="0.00">
+    <label for="bill">Total bill amount:</label>
+    <input type="text" id="bill" placeholder="0.00" value="0.00">
 
-    <label for="percentage">Percentage: </label>
-    <input type="number" id="percentage" min="1" max="100">
+    <label for="percent">Percentage: </label>
+    <input type="number" id="percent" min="1" max="100">
 
     <label for="people">People: </label>
     <input type="number" id="people" min="1" max="100">
 
     <button>Submit</button>
 
-    <h3>Total:</h3>
+    <h3 id="tip">Tip: </h3>
+
+    <h2 id="total">Total: </h2>
 
 
 </body>
