@@ -7,6 +7,7 @@ var tipText = document.getElementById('tip');
 var totalText = document.getElementById('total');
 
 submitButton.addEventListener('click', () => console.log('submit button hit', bill.value, percent.value, people.value))
+submitButton.addEventListener('click', calc)
 
 console.log(bill)
 // var bill2 = 77.71;
@@ -15,14 +16,17 @@ console.log(bill)
 // var tip2 = undefined;
 // var answer2 = undefined;
 
-// function calc(amount){
-//      tip = amount * (percent / 100)
-//     const endTip = tip.toFixed(2);
-//     const endBill = (tip + bill).toFixed(2);
-//     answer = (endBill / people).toFixed(2);
-//     console.log(endTip);
-//     console.log(endBill); 
-//     console.log(answer); 
-// }
+function calc(amount){
+    console.log('calc func hit');
+    console.log(amount)
+    //  tip = amount * (percent / 100)
+    // const endTip = tip.toFixed(2);
+    // const endBill = (tip + bill).toFixed(2);
+    // answer = (endBill / people).toFixed(2);
+    // console.log(endTip);
+    // console.log(endBill); 
+    // console.log(answer); 
+}
+
 
 // calc(bill)
